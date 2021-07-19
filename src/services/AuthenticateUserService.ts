@@ -34,7 +34,7 @@ class AuthenticateUserService {
             {
                 email
             },
-            "05703b05a415f83e0d59b2486de0a491",
+            "",
             {
                 subject: user.id,
                 expiresIn: "1d"
