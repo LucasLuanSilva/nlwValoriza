@@ -17,7 +17,7 @@ export function ensureAuthenticated(request: Request, response: Response, next: 
 
     try {
         // Validar se o token é válido
-        const { sub } = verify(token, "05703b05a415f83e0d59b2486de0a491") as IPayload;
+        const { sub } = verify(token, "") as IPayload;
 
         // Recuperar informações do usuário
         request.user_id = sub;
